@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React from 'react';
-import Logo from '../img/Logo.png';
+import Logo from '../../public/img/logo.png'; // Adjust the path as necessary
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';

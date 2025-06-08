@@ -1,38 +1,46 @@
 import React, { useState } from 'react';
 
-import MeksiakKanepeKapak from '../img/meksikaKanepe/meksikaKanepeKapak.jpg';
-import MeksiakKanepe1 from '../img/meksikaKanepe/meksikaKanepe1.jpg';
-import MeksiakKanepe2 from '../img/meksikaKanepe/meksikaKanepe2.jpg';
-import MeksiakKanepe3 from '../img/meksikaKanepe/meksikaKanepe3.jpg';
-import Baku0 from '../img/Baku/BakuKapak.jpg';
-import Baku6 from '../img/Baku/baku6.jpg';
-import Baku3 from '../img/Baku/baku3.jpg';
-import Baku1 from '../img/Baku/baku1.jpg';
-import Nice1 from '../img/niceKanepe/nice1.jpg';
-import Nice2 from '../img/niceKanepe/nice2.jpg';
-import Nice3 from '../img/niceKanepe/nice3.jpg';
-import Nice4 from '../img/niceKanepe/nice4.jpg';
-import Turkuvaz from '../img/turkuvazKanepe/turkuvaz.jpg';
-import Turkuvaz1 from '../img/turkuvazKanepe/turkuvaz1.jpg';
-import Turkuvaz2 from '../img/turkuvazKanepe/turkuvaz2.jpg';
-import Turkuvaz3 from '../img/turkuvazKanepe/turkuvaz3.jpg';
-import MilanoBossKanepe0 from '../img/milanoKanepeBoss/milanoKanepeBoss0.jpg';
-import MilanoBossKanepe1 from '../img/milanoKanepeBoss/milanoKanepeBoss1.jpg';
-import MilanoBossKanepe2 from '../img/milanoKanepeBoss/milanoKanepeBoss2.jpg';
-import MilanoBossKanepe3 from '../img/milanoKanepeBoss/milanoKanepeBoss3.jpg';
-import MilanoBossKanepe4 from '../img/milanoKanepeBoss/milanoKanepeBoss4.jpg';
-import NightKanepe0 from '../img/nightKanepe/nightKanepe0.jpg';
-import NightKanepe2 from '../img/nightKanepe/nightKanepe1.jpg';
-import NightKanepe3 from '../img/nightKanepe/nightKanepe2.jpg';
-import NightKanepe4 from '../img/nightKanepe/nightKanepe3.jpg';
-import BebekKanepe0 from '../img/BebekKanepe/bebekKanepe0.jpg';
-import BebekKanepe1 from '../img/BebekKanepe/bebekKanepe1.jpeg';
-import BebekKanepe2 from '../img/BebekKanepe/bebekKanepe2.jpeg';
-import BebekKanepe3 from '../img/BebekKanepe/bebekKanepe3.jpeg';
-import HappyKanepe0 from '../img/happyKanepe/happykanepe0.jpg';
-import HappyKanepe1 from '../img/happyKanepe/happykanepe1.jpg';
-import HappyKanepe2 from '../img/happyKanepe/happykanepe2.jpg';
-import HappyKanepe3 from '../img/happyKanepe/happykanepe3.jpg';
+import MeksiakKanepeKapak from '../../public/img/meksikaKanepe/meksikaKanepeKapak.jpg';
+import MeksiakKanepe1 from '../../public/img/meksikaKanepe/meksikaKanepe1.jpg';
+import MeksiakKanepe2 from '../../public/img/meksikaKanepe/meksikaKanepe2.jpg';
+import MeksiakKanepe3 from '../../public/img/meksikaKanepe/meksikaKanepe3.jpg';
+
+import Baku0 from '../../public/img/Baku/BakuKapak.jpg';
+import Baku6 from '../../public/img/Baku/baku6.jpg';
+import Baku3 from '../../public/img/Baku/baku3.jpg';
+import Baku1 from '../../public/img/Baku/baku1.jpg';
+
+import Nice1 from '../../public/img/niceKanepe/nice1.jpg';
+import Nice2 from '../../public/img/niceKanepe/nice2.jpg';
+import Nice3 from '../../public/img/niceKanepe/nice3.jpg';
+import Nice4 from '../../public/img/niceKanepe/nice4.jpg';
+
+import Turkuvaz from '../../public/img/turkuvazKanepe/turkuvaz.jpg';
+import Turkuvaz1 from '../../public/img/turkuvazKanepe/turkuvaz1.jpg';
+import Turkuvaz2 from '../../public/img/turkuvazKanepe/turkuvaz2.jpg';
+import Turkuvaz3 from '../../public/img/turkuvazKanepe/turkuvaz3.jpg';
+
+import MilanoBossKanepe0 from '../../public/img/milanoKanepeBoss/milanoKanepeBoss0.jpg';
+import MilanoBossKanepe1 from '../../public/img/milanoKanepeBoss/milanoKanepeBoss1.jpg';
+import MilanoBossKanepe2 from '../../public/img/milanoKanepeBoss/milanoKanepeBoss2.jpg';
+import MilanoBossKanepe3 from '../../public/img/milanoKanepeBoss/milanoKanepeBoss3.jpg';
+import MilanoBossKanepe4 from '../../public/img/milanoKanepeBoss/milanoKanepeBoss4.jpg';
+
+import NightKanepe0 from '../../public/img/nightKanepe/nightKanepe0.jpg';
+import NightKanepe2 from '../../public/img/nightKanepe/nightKanepe1.jpg';
+import NightKanepe3 from '../../public/img/nightKanepe/nightKanepe2.jpg';
+import NightKanepe4 from '../../public/img/nightKanepe/nightKanepe3.jpg';
+
+import BebekKanepe0 from '../../public/img/BebekKanepe/bebekKanepe0.jpg';
+import BebekKanepe1 from '../../public/img/BebekKanepe/bebekKanepe1.jpeg';
+import BebekKanepe2 from '../../public/img/BebekKanepe/bebekKanepe2.jpeg';
+import BebekKanepe3 from '../../public/img/BebekKanepe/bebekKanepe3.jpeg';
+
+import HappyKanepe0 from '../../public/img/happyKanepe/happykanepe0.jpg';
+import HappyKanepe1 from '../../public/img/happyKanepe/happykanepe1.jpg';
+import HappyKanepe2 from '../../public/img/happyKanepe/happykanepe2.jpg';
+import HappyKanepe3 from '../../public/img/happyKanepe/happykanepe3.jpg';
+
 
 const productList = [
     {
